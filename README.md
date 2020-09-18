@@ -3,15 +3,13 @@
 Just a simple wardrobe lighting project that iluminated your clothes when you open a door.
 Pretty neat to not wake up your partner when you search your clothes early in the morning.
 
-<center>
-<img src="./img/illuminated-clothes.jpg" alt="light illuminating the clothes within the wardrobe">
-</center>
+<img src="./img/illuminated-clothes.jpg" alt="light illuminating the clothes within the wardrobe" />
 
 The nice thing is, that the light smoothly fades in and out when you open the door. This definetly does give it a premium touch.
 
-<center>
-<img src="./img/fade.gif" alt="door opening and closing with according light ffade in and out">
-</center>
+<p align="center">
+  <img src="./img/fade.gif" alt="door opening and closing with according light ffade in and out" />
+</p>
 
 ## Hardware
 
@@ -44,14 +42,19 @@ If your uC can not handle the LED supply voltage on it's own you will also need 
 TODO but basicly you just connect the Arduino and the LEDs with the MOSFET and the REED switches in series to each other from the Arduino Voltage (mostly 5V or 3.3V) to any input pin.
 
 It's similar to this image from stackexchange.com:
-[![](https://i.imgur.com/c8CqYQI.png)](https://arduino.stackexchange.com/questions/14603/connecting-a-switch-and-a-mosfet-to-an-arduino)
+
+<p align="center">
+  <a href="https://arduino.stackexchange.com/questions/14603/connecting-a-switch-and-a-mosfet-to-an-arduino">
+    <img src="https://i.imgur.com/c8CqYQI.png" alt="circuit schematic" />
+  </a>
+</p>
 
 In real it looks like this mess:
-<center>
-<img src="./img/circuit-top.jpg" alt="circuit top side">
-<img src="./img/circuit-bottom.jpg" alt="circuit bottom side with all the cables">
-</center>
 
+<p align="center">
+  <img src="./img/circuit-top.jpg" alt="circuit top side" />
+  <img src="./img/circuit-bottom.jpg" alt="circuit bottom side with all the cables" />
+</p>
 
 ## Software
 
